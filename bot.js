@@ -133,8 +133,8 @@ Bot.initEvents = function() {
 	Events.registerEvents(this.bot);
 };
 
-client.login(process.env.BOT_TOKEN);
-
+Bot.login = function() {
+Bot.login(process.env.BOT_TOKEN);
 };
 
 Bot.onReady = function() {
